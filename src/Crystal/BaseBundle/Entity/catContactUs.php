@@ -47,7 +47,7 @@ class catContactUs
      *
      * @ORM\Column(name="e-mail", type="string", length=25)
      */
-    private $e-mail;
+    private $email;
 
 
     /**
