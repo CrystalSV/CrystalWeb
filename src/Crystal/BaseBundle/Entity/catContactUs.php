@@ -45,7 +45,7 @@ class catContactUs
     /**
      * @var string
      *
-     * @ORM\Column(name="e-mail", type="string", length=25)
+     * @ORM\Column(name="email", type="string", length=40)
      */
     private $email;
 
@@ -130,25 +130,25 @@ class catContactUs
     }
 
     /**
-     * Set e-mail
+     * Set email
      *
      * @param string $eMail
      * @return catContactUs
      */
     public function setEMail($eMail)
     {
-        $this->e-mail = $eMail;
+        $this->email = $eMail;
     
         return $this;
     }
 
     /**
-     * Get e-mail
+     * Get email
      *
      * @return string 
      */
     public function getEMail()
     {
-        return $this->e-mail;
+        return $this->email;
     }
 }
