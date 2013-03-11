@@ -43,14 +43,6 @@ class catClients
     private $Description;
 
     /**
-     * @var string
-     *
-     * @ORM\Column(name="url", type="string", length=80)
-     */
-    private $url;
-
-
-    /**
      * Get id
      *
      * @return integer 
@@ -127,28 +119,5 @@ class catClients
     public function getDescription()
     {
         return $this->Description;
-    }
-
-    /**
-     * Set url
-     *
-     * @param string $url
-     * @return catClients
-     */
-    public function setUrl($url)
-    {
-        $this->url = $url;
-    
-        return $this;
-    }
-
-    /**
-     * Get url
-     *
-     * @return string 
-     */
-    public function getUrl()
-    {
-        return $this->url;
     }
 }

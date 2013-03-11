@@ -151,4 +151,19 @@ class catProjects
     {
         return $this->date;
     }
+    /**
+     *@ORM\OneToOne(targetEntity="catClients")
+     * @ORM\JoinColumn(name="idclient", referencedColumnName="id")
+     **/
+    public $idclient;
+
+    public function setidclient(\Crystal\BaseBundle\Entity\catClients $idclient)
+    {
+        $this->idclient = $idclient;
+    }
+
+    public function getnidclient()
+    {
+        return $this->idclient;
+    }
 }
