@@ -1,3 +1,23 @@
 crystal_web_homepage:
     pattern:  /hello/{name}
     defaults: { _controller: CrystalWebBundle:Default:index }
+
+Proyecto_listar:
+    pattern:  /Proyectos/listar
+    defaults: { _controller: CrystalWebBundle:Proyectos:listar }
+
+Proyecto_crear:
+    pattern:  /Proyectos/crear
+    defaults: { _controller: CrystalWebBundle:Proyectos:crear }
+
+Proyecto_editar:
+    pattern:  /Proyectos/editar/{id}
+    defaults: { _controller: CrystalWebBundle:Proyectos:editar }
+
+Proyecto_visualizar:
+    pattern:  /Proyectos/visualizar/{id}
+    defaults: { _controller: CrystalWebBundle:Proyectos:mostrar }
+
+Proyecto_borrar:
+    pattern:  /Proyectos/borrar/{id}
+    defaults: { _controller: CrystalWebBundle:Proyectos:borrar }
