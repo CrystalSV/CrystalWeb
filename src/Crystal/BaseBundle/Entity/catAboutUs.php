@@ -61,4 +61,19 @@ class catAboutUs
     {
         return $this->Information;
     }
+    /**
+     *@ORM\OneToOne(targetEntity="catFounders")
+     * @ORM\JoinColumn(name="idFounder", referencedColumnName="id")
+     **/
+    public $idFounder;
+
+    public function setidFounder(\Crystal\BaseBundle\Entity\catFounders $idFounder)
+    {
+        $this->idFounder = $idFounder;
+    }
+
+    public function getnidFounder()
+    {
+        return $this->idFounder;
+    }
 }

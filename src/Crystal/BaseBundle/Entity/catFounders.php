@@ -3,6 +3,7 @@
 namespace Crystal\BaseBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert
 
 /**
  * catFounders
@@ -32,6 +33,7 @@ class catFounders
      * @var string
      *
      * @ORM\Column(name="Photo", type="string", length=50)
+     * @Assert\NotNull(message="Debe de escribir un Nombre")
      */
     private $Photo;
 
@@ -39,6 +41,7 @@ class catFounders
      * @var string
      *
      * @ORM\Column(name="Position", type="string", length=25)
+     * @Assert\NotNull
      */
     private $Position;
 
