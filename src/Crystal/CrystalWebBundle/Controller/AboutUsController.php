@@ -4,9 +4,9 @@ namespace Crystal\CrystalWebBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
-use Crystal\BaseBundle\Entity\catProjects;
+use Crystal\BaseBundle\Entity\catAboutUs;
 
-class ProjectsController extends Controller
+class AboutUsController extends Controller
 {
 	public function listarAction()
 	{
