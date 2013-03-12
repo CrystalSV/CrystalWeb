@@ -49,6 +49,7 @@ class catFounders
      * @var string
      *
      * @ORM\Column(name="Biography", type="string", length=255)
+     * @Assert\NotNull
      */
     private $Biography;
 

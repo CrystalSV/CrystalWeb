@@ -3,6 +3,7 @@
 namespace Crystal\BaseBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert
 
 /**
  * catContactUs
@@ -25,6 +26,7 @@ class catContactUs
      * @var string
      *
      * @ORM\Column(name="Name", type="string", length=20)
+     * @Assert\NotNull
      */
     private $Name;
 
@@ -32,6 +34,7 @@ class catContactUs
      * @var string
      *
      * @ORM\Column(name="Address", type="string", length=80)
+     * @Assert\NotNull
      */
     private $Address;
 
@@ -39,6 +42,7 @@ class catContactUs
      * @var string
      *
      * @ORM\Column(name="Phone", type="string", length=15)
+     * @Assert\NotNull
      */
     private $Phone;
 
@@ -46,6 +50,7 @@ class catContactUs
      * @var string
      *
      * @ORM\Column(name="email", type="string", length=40)
+     * @Assert\NotNull
      */
     private $email;
 
