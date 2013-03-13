@@ -8,22 +8,22 @@ use Crystal\BaseBundle\Entity\catContatUs;
 
 class ContatUsController extends Controller
 {
-	public function listarAction()
+	public function listAction()
 	{
 		
 	}
 
-	public function crearAction()
+	public function createAction()
 	{
 		
 	}
 
-	public function editarAction($id)
+	public function editAction($id)
 	{
 		
 	}
 
-	public function borrarAction($id)
+	public function eraseAction($id)
 	{
 		
 	}
