@@ -3,127 +3,103 @@ admin_homepage:
     defaults: { _controller: AdminBundle:Default:index }
 
 
-Proyecto_list:
-    pattern:  /Proyectos/list
+listProject:
+    pattern:  /admin/list
     defaults: { _controller: CrystalAdminBundle:Projects:list }
 
-Proyecto_create:
-    pattern:  /Proyectos/create
-    defaults: { _controller: CrystalAdminBundle:Projects:create }
+addProject:
+    pattern:  /admin/addProject
+    defaults: { _controller: CrystalAdminBundle:Projects:add }
 
-Proyecto_edit:
-    pattern:  /Proyectos/edit/{id}
-    defaults: { _controller: CrystalAdminBundle:Projects:edit }
+updateProject:
+    pattern:  /admin/updateProject/{id}
+    defaults: { _controller: CrystalAdminBundle:Projects:update }
 
-Proyecto_visualizar:
-    pattern:  /Proyectos/visualizar/{id}
-    defaults: { _controller: CrystalAdminBundle:Projects:show }
-
-Proyecto_erease:
-    pattern:  /Proyectos/erease/{id}
+ereaseProject:
+    pattern:  /admin/ereaseProject/{id}
     defaults: { _controller: CrystalAdminBundle:Projects:erease }
 
 
-Clients_list:
-    pattern:  /Clientes/list
+listClients:
+    pattern:  /Clients/listClients
     defaults: { _controller: CrystalAdminBundle:Clients:list }
 
-Clients_create:
-    pattern:  /Clientes/create
-    defaults: { _controller: CrystalAdminBundle:Clients:create }
+addClients:
+    pattern:  /Clients/addClients
+    defaults: { _controller: CrystalAdminBundle:Clients:add }
 
-Clients_edit:
-    pattern:  /Clientes/edit/{id}
-    defaults: { _controller: CrystalAdminBundle:Clients:edit }
+updateClients:
+    pattern:  /Clients/updateClients/{id}
+    defaults: { _controller: CrystalAdminBundle:Clients:update }
 
-Clients_visualizar:
-    pattern:  /Clientes/visualizar/{id}
-    defaults: { _controller: CrystalAdminBundle:Clients:show }
-
-Clients_erease:
-    pattern:  /Clientes/erease/{id}
+ereaseClients:
+    pattern:  /Clients/ereaseClients/{id}
     defaults: { _controller: CrystalAdminBundle:Clients:erease }
 
 
-ContactUs_list:
-    pattern:  /Contactenos/list
+listContactUs:
+    pattern:  /Contactenos/listContactUs
     defaults: { _controller: CrystalAdminBundle:ContactUs:list }
 
-ContactUs_create:
-    pattern:  /Contactenos/create
-    defaults: { _controller: CrystalAdminBundle:ContactUs:create }
+addContactUs:
+    pattern:  /Contactenos/addContactUs
+    defaults: { _controller: CrystalAdminBundle:ContactUs:add }
 
-ContactUs_edit:
-    pattern:  /Contactenos/edit/{id}
-    defaults: { _controller: CrystalAdminBundle:ContactUs:edit }
+updateContactUs:
+    pattern:  /Contactenos/updateContactUs/{id}
+    defaults: { _controller: CrystalAdminBundle:ContactUs:update }
 
-ContactUs_visualizar:
-    pattern:  /Contactenos/visualizar/{id}
-    defaults: { _controller: CrystalAdminBundle:ContactUs:show }
-
-ContactUs_erease:
-    pattern:  /Contactenos/erease/{id}
+ereaseContactUs:
+    pattern:  /Contactenos/ereaseContactUs/{id}
     defaults: { _controller: CrystalAdminBundle:ContactUs:erease }
 
 
-AboutUs_list:
-    pattern:  /Nosotros/list
+listAboutUs:
+    pattern:  /Nosotros/listAboutUs
     defaults: { _controller: CrystalAdminBundle:AboutUs:list }
 
-AboutUs_create:
-    pattern:  /Nosotros/create
-    defaults: { _controller: CrystalAdminBundle:AboutUs:create }
+addAboutUs:
+    pattern:  /Nosotros/addAboutUs
+    defaults: { _controller: CrystalAdminBundle:AboutUs:add }
 
-AboutUs_edit:
-    pattern:  /Nosotros/edit/{id}
-    defaults: { _controller: CrystalAdminBundle:AboutUs:edit }
+updateAboutUs:
+    pattern:  /Nosotros/updateAboutUs/{id}
+    defaults: { _controller: CrystalAdminBundle:AboutUs:update }
 
-AboutUs_visualizar:
-    pattern:  /Nosotros/visualizar/{id}
-    defaults: { _controller: CrystalAdminBundle:AboutUs:show }
-
-AboutUs_erease:
-    pattern:  /Nosotros/erease/{id}
+ereaseAboutUs:
+    pattern:  /Nosotros/ereaseAboutUs/{id}
     defaults: { _controller: CrystalAdminBundle:AboutUs:erease }
 
 
-Founders_list:
-    pattern:  /Fundadores/listar
+listFounders:
+    pattern:  /Fundadores/listFounders
     defaults: { _controller: CrystalAdminBundle:Founders:list }
 
-Founders_create:
-    pattern:  /Fundadores/create
-    defaults: { _controller: CrystalAdminBundle:Founders:create }
+addFounders:
+    pattern:  /Fundadores/addFounders
+    defaults: { _controller: CrystalAdminBundle:Founders:add }
 
-Founders_edit:
-    pattern:  /Fundadores/edit/{id}
-    defaults: { _controller: CrystalAdminBundle:Founders:edit }
+updateFounders:
+    pattern:  /Fundadores/updateFounders/{id}
+    defaults: { _controller: CrystalAdminBundle:Founders:update }
 
-Founders_visualizar:
-    pattern:  /Fundadores/visualizar/{id}
-    defaults: { _controller: CrystalAdminBundle:Founders:show }
-
-Founders_erease:
-    pattern:  /Fundadores/erease/{id}
+ereaseFounders:
+    pattern:  /Fundadores/ereaseFounders/{id}
     defaults: { _controller: CrystalAdminBundle:Founders:erease }
 
 
-Services_list:
-    pattern:  /Servicios/list
+listServices:
+    pattern:  /Servicios/listServices
     defaults: { _controller: CrystalAdminBundle:Services:list }
 
-Services_create:
-    pattern:  /Servicios/create
-    defaults: { _controller: CrystalAdminBundle:Services:create }
+addServices:
+    pattern:  /Servicios/addServices
+    defaults: { _controller: CrystalAdminBundle:Services:add }
 
-Services_edit:
-    pattern:  /Servicios/edit/{id}
-    defaults: { _controller: CrystalAdminBundle:Services:edit }
+updateServices:
+    pattern:  /Servicios/updateServices/{id}
+    defaults: { _controller: CrystalAdminBundle:Services:update }
 
-Services_visualizar:
-    pattern:  /Servicios/visualizar/{id}
-    defaults: { _controller: CrystalAdminBundle:Services:show }
-
-Services_erease:
-    pattern:  /Servicios/erease/{id}
+ereaseServices:
+    pattern:  /Servicios/ereaseServices/{id}
     defaults: { _controller: CrystalAdminBundle:Services:erease }
