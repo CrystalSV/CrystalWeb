@@ -21,53 +21,53 @@ ereaseProject:
 
 
 listClients:
-    pattern:  /Clients/listClients
+    pattern:  /admin/listClients
     defaults: { _controller: CrystalAdminBundle:Clients:list }
 
 addClients:
-    pattern:  /Clients/addClients
+    pattern:  /admin/addClients
     defaults: { _controller: CrystalAdminBundle:Clients:add }
 
 updateClients:
-    pattern:  /Clients/updateClients/{id}
+    pattern:  /admin/updateClients/{id}
     defaults: { _controller: CrystalAdminBundle:Clients:update }
 
 ereaseClients:
-    pattern:  /Clients/ereaseClients/{id}
+    pattern:  /admin/ereaseClients/{id}
     defaults: { _controller: CrystalAdminBundle:Clients:erease }
 
 
 listContactUs:
-    pattern:  /Contactenos/listContactUs
+    pattern:  /admin/listContactUs
     defaults: { _controller: CrystalAdminBundle:ContactUs:list }
 
 addContactUs:
-    pattern:  /Contactenos/addContactUs
+    pattern:  /admin/addContactUs
     defaults: { _controller: CrystalAdminBundle:ContactUs:add }
 
 updateContactUs:
-    pattern:  /Contactenos/updateContactUs/{id}
+    pattern:  /admin/updateContactUs/{id}
     defaults: { _controller: CrystalAdminBundle:ContactUs:update }
 
 ereaseContactUs:
-    pattern:  /Contactenos/ereaseContactUs/{id}
+    pattern:  /admin/ereaseContactUs/{id}
     defaults: { _controller: CrystalAdminBundle:ContactUs:erease }
 
 
 listAboutUs:
-    pattern:  /Nosotros/listAboutUs
+    pattern:  /admin/listAboutUs
     defaults: { _controller: CrystalAdminBundle:AboutUs:list }
 
 addAboutUs:
-    pattern:  /Nosotros/addAboutUs
+    pattern:  /admin/addAboutUs
     defaults: { _controller: CrystalAdminBundle:AboutUs:add }
 
 updateAboutUs:
-    pattern:  /Nosotros/updateAboutUs/{id}
+    pattern:  /admin/updateAboutUs/{id}
     defaults: { _controller: CrystalAdminBundle:AboutUs:update }
 
 ereaseAboutUs:
-    pattern:  /Nosotros/ereaseAboutUs/{id}
+    pattern:  /admin/ereaseAboutUs/{id}
     defaults: { _controller: CrystalAdminBundle:AboutUs:erease }
 
 
@@ -89,17 +89,17 @@ ereaseFounders:
 
 
 listServices:
-    pattern:  /Servicios/listServices
+    pattern:  /admin/listServices
     defaults: { _controller: CrystalAdminBundle:Services:list }
 
 addServices:
-    pattern:  /Servicios/addServices
+    pattern:  /admin/addServices
     defaults: { _controller: CrystalAdminBundle:Services:add }
 
 updateServices:
-    pattern:  /Servicios/updateServices/{id}
+    pattern:  /admin/updateServices/{id}
     defaults: { _controller: CrystalAdminBundle:Services:update }
 
 ereaseServices:
-    pattern:  /Servicios/ereaseServices/{id}
+    pattern:  /admin/ereaseServices/{id}
     defaults: { _controller: CrystalAdminBundle:Services:erease }
