@@ -59,7 +59,7 @@ class accessController extends Controller
 	      	
 	      	$_POST = $request->request;
 	        $dql = "SELECT a FROM CrystalBaseBundle:catUsers a where a.userName=:userName and a.pass =:pass";
-	      	$query = $em->createQuery($dql);
+	      	$query = $em->addQuery($dql);
 	        $query->setParameter('userName', $_POST->get('txtUserAdmin'));
 	        $query->setParameter('pass', $_POST->get('txtPassAdmin'));
 	        $usuario = $query->getResult();

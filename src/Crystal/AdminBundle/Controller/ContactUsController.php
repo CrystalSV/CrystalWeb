@@ -13,12 +13,12 @@ class ContatUsController extends Controller
 		
 	}
 
-	public function createAction()
+	public function addAction()
 	{
 		
 	}
 
-	public function editAction($id)
+	public function updateAction($id)
 	{
 		
 	}

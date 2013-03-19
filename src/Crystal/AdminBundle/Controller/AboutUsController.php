@@ -10,15 +10,15 @@ class AboutUsController extends Controller
 {
 	public function listAction()
 	{
-		
+
 	}
 
-	public function createAction()
+	public function addAction()
 	{
 		
 	}
 
-	public function editAction($id)
+	public function updateAction($id)
 	{
 		
 	}

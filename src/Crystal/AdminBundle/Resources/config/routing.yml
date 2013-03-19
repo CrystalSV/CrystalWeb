@@ -103,3 +103,23 @@ updateServices:
 ereaseServices:
     pattern:  /admin/ereaseServices/{id}
     defaults: { _controller: CrystalAdminBundle:Services:erease }
+
+listUsers:
+    pattern:  /admin/listServices
+    defaults: { _controller: CrystalAdminBundle:Services:list }
+
+registerUsers:
+    pattern:  /admin/addServices
+    defaults: { _controller: CrystalAdminBundle:Services:register }
+
+updateUsers:
+    pattern:  /admin/updateServices/{id}
+    defaults: { _controller: CrystalAdminBundle:Services:update }
+
+ereaseUsers:
+    pattern:  /admin/ereaseServices/{id}
+    defaults: { _controller: CrystalAdminBundle:Services:erease }
+
+validateUsers:
+    pattern:   /admin/validateUser
+    defaluts:  { _controller: CrystalAdminBundle:Users:validate}
